@@ -52,12 +52,13 @@
     max-height: 500px;
 }
 .about{
-    margin-bottom: 50px;
+    
+    margin-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .about-us{
-    background-color: var(--nav-color);;
-    height: 100vh;
+    background-color: var(--nav-color);
 }
 
 .zoom {
