@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --purple:#6c63ff;
+    --light-purple:#f7aef8;
+    --l-1-green:#c7f9cc;
+    --nav-color:#F0F8FF;
+    --fav:#a82ba9;
+}
+
+.head-body{
+    /* background-image: url('/Portfolio-project/image/undraw_Aircraft_re_m05i.png');
+    background-repeat: no-repeat; 
+    background-size: cover; */
+    height: 100vh;
+    border-bottom: 1px solid black;
+}
+
+.height-100{
+    height: 100%;
+}
+.name-size{
+    font-size: 50px;
+}
+
+.name-1st-letter{
+    font-size: 70px;
+    color: var(--purple);
+}
+
+/* .soft{
+    color: var(--fav);
+    font-size: 50px;
+} */
+
+
+
+.navbar-nav li a{
+    padding: 0px;
+}
+.navbar-nav li a:hover{
+    
+    border-bottom: 3px solid var(--purple);
+}
+
+.about-as-img img{
+    max-height: 500px;
+}
+.about{
+    margin-bottom: 50px;
+}
+
+.about-us{
+    background-color: var(--nav-color);;
+    height: 100vh;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover{
+    transform: scale(1.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 10px 10px;
+  }
+
+ 
