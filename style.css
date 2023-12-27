@@ -52,7 +52,6 @@
     max-height: 500px;
 }
 .about{
-    
     margin-bottom: 0px;
     padding-bottom: 30px;
 }
@@ -69,6 +68,61 @@
     transform: scale(1.2);
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
     box-shadow: 10px 10px;
+    background: var(--purple);
+  
   }
 
+ .mallow-img{
+    width:500px;
+    height:auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+ }
+
+ .container.contact{
+  width: 50%;
+ }
+
+ footer{
+  background-color: black;
+ }
  
+ .social-icon a{
+  padding: 0px 20px;
+  text-decoration: none;
+  font-size: 19px;
+ }
+.linkedin{
+  color: blue;
+}
+.email{
+  color: red;
+}
+.whatsapp{
+  color: rgb(24, 175, 24);
+}
+
+footer p{
+  margin-bottom: 0px;
+  color: azure;
+}
+
+.linkedin:hover {
+  background-color: #0077b5; 
+  color: white; 
+}
+
+.email:hover {
+  background-color: #ff0000; 
+  color: white; 
+}
+
+.whatsapp:hover {
+  background-color: #128C7E; 
+  color: white; 
+}
+
+.phone:hover{
+  color: black;
+  background-color: white;
+}
